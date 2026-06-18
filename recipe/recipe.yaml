@@ -1,5 +1,5 @@
 context:
-  version: "0.6.2"
+  version: "0.7.0"
 
 package:
   name: crysfml
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/crysfml/crysfml-${{ version }}.tar.gz
-  sha256: 93d6e4950aeb63bef959e019250df94a5504f210dfca9b0dc485fe3ee21686b4
+  sha256: 3a65bdd2b406aaeebcf7dcc82d6ed5c8d04dfaa6a4f1e0b69da9713469320d26
 
 build:
-  number: 2
+  number: 0
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   skip: match(python, "<3.11")
 
