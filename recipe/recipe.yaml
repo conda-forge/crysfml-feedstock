@@ -1,5 +1,5 @@
 context:
-  version: "0.7.0"
+  version: "0.8.0"
 
 package:
   name: crysfml
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/crysfml/crysfml-${{ version }}.tar.gz
-  sha256: 3a65bdd2b406aaeebcf7dcc82d6ed5c8d04dfaa6a4f1e0b69da9713469320d26
+  sha256: a4b01a64dc6053fe1d5ca2d2ff0fbf19da8ef59025fc0d83feb5c803f29976a4
 
 build:
   number: 0
