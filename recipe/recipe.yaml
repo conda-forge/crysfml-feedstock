@@ -60,4 +60,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - conda-forge/easyscience
     - MridulS
